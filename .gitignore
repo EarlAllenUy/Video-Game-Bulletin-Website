@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------- #
+# Global Ignores (Applies to the whole repository)
+# ---------------------------------------------------------------- #
+
+# Dependencies
+# Ignore the node_modules folder wherever it appears
+node_modules
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# VS Code Files (Optional - to keep your personal settings local)
+.vscode/
